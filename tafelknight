@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Tafels</title>
+<script type="text/javascript" src="tafel.js"></script>
+</head>
+<body>
+<label for="tafelvan">Tafel van </label>
+<input type="text" name="tafelvan" id="tafelvan" />
+<input type="button" name="button" id="button" value="Weergeven" onclick="tafel('tafelvan', 'tafel');" />
+<div id="tafel"></div>
+</body>
+</html>
